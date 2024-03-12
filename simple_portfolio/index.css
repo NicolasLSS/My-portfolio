@@ -1,0 +1,106 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Arial;
+}
+
+ul{
+	display: flex;
+	list-style: none;
+	padding: 16px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+header img{
+	border : 6px solid transparent;
+	background: linear-gradient(black,grey)padding-box, linear-gradient(to top, black,white) border-box;
+	
+	border-radius: 35px;
+	width: 150px;
+	height: 150px;
+}
+
+.container{
+	padding: 0px 50px;
+}
+
+.center{
+	text-align: center;
+}
+
+nav a:hover{
+	color: grey;
+}
+
+h1{
+	color: white;
+	width: 250px;
+	height: 20px;
+}
+h2{
+	color: grey;
+	width: 310px;
+	height: 20px;
+
+}
+
+h3{
+	font-size: 26px;
+	color: grey;
+	margin: 10px;
+	margin-top: 60px;
+	text-align: left;
+}
+
+h4{
+	font-size: 16px;
+	color: grey;
+	margin: 10px;
+	margin-top: 60px;
+	text-align: left;
+}
+
+p{
+	color: white;
+	margin: 0px;
+	margin-top: 20px;
+	text-align: left;
+}
+
+footer img{
+	border : 2px solid transparent;
+	background: linear-gradient(black,grey)padding-box, linear-gradient(to top, grey,white) border-box;
+	
+	border-radius: 6px;
+	width: 30px;
+	height: 30px;
+}
+
+footer{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+footer a{
+	margin: 60px;
+	text-align: center;
+}
+
+footer p{
+	margin-top: 2px;
+}
+
+footer a:hover{
+
+}
+
+footer img:hover{
+
+}

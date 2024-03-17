@@ -1,8 +1,8 @@
 const Letters="ABCDEFGHIJKLMNOPQRSTUVHXYZ#@!/[]123456789";
 
-let AnimInterval=0;
+var AnimInterval=0;
 
-if(document != null && AnimInterval != null){
+if(Letters != null && AnimInterval != null){
 
 	AnimStart();
 }
